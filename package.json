@@ -1,0 +1,16 @@
+{
+  "name": "employee-relations-automation",
+  "version": "1.2.1",
+  "private": true,
+  "description": "Employee Relations Automation: disciplinary workflow, EmployeeVoice, PIPs, PM appeals and records (prototype rebuild).",
+  "scripts": {
+    "start": "node server.js",
+    "start:assist": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
